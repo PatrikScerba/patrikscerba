@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PatrikScerba/patrikscerba/main/5c93dc7f-5f2b-490e-8d20-d6b1238a25e4.png" alt="Banner" width="820" />
+  <img src="https://raw.githubusercontent.com/PatrikScerba/patrikscerba/main/GitHub.image.png" alt="Banner" width="820" />
 </p>
 
 # 👋 Hi, I'm Patrik Ščerba  
