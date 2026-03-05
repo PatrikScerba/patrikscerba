@@ -70,7 +70,7 @@ The next major version of the Fitness Client Management System — rebuilt as a 
 - Professional multi-layer architecture (controller • service • repository • entity • DTO)  
 - Designed to replace previous desktop versions (v1, v2, v3)
 
-📌 GitHub:  [View Repository]https://github.com/PatrikScerba/EvidenciaFitnesKlientov_Web
+📌 GitHub: [View Repository](https://github.com/PatrikScerba/EvidenciaFitnesKlientov_Web)
 
 ---
 
