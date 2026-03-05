@@ -42,22 +42,24 @@ A more professional version with a real database backend.
 
 ---
 
-## 🔹 EvidenciaFitnesKlientov v3.0 (Hybrid + QR System) – *In Progress*
-**Tech Stack:** Java • Swing • MySQL + XML • QR (ZXing) • ZIP archiving  
-The most advanced version so far.  
-- Hybrid storage (XML + MySQL)  
-- Architecture: dao • service • utils • ui  
-- QR code generation for each client  
-- QR codes stored on disk and archived into ZIP files for clean organization  
-- Database stores only the QR path, not the image itself  
-- Planned features: QR entry scanning, automatic membership renewal  
-- Designed for potential real-world use  
+## 🔹EvidenciaFitnessKlientov v3.0 (Hybrid DB + QR System)
+**Tech Stack: Java • Swing • MySQL • XML • JDBC • DAO • QR (ZXing) 
+Most advanced completed version — a hybrid desktop system for managing fitness clients with online/offline mode, QR-based identification, and time-stamped entry tracking.
 
-📌 GitHub: **Work in progress — repository will be added soon**
+- Hybrid storage (MySQL as primary + XML fallback/cache) with automatic mode switching  
+- Full client management (create, edit, delete, search, client details)  
+- Membership management and pass extension  
+- QR code generation + regeneration (new token → old one becomes invalid)  
+- Scanner simulation (reception/turnstile): QR-based entry check with accept/deny flow  
+- Time-stamped entry tracking: per-client history and global history (accepted/denied + reason + mode)  
+- System event & error logging with timestamps
+- Architecture: DAO • service layer • tools/IO • UI (layered structure)
+  
+📌 GitHub: [View Repository](https://github.com/PatrikScerba/EvidenciaFitnesKlientov_Hybrid)
 
 ---
 
-## 🔹 EvidenciaFitnesKlientov v4.0 – *Coming Soon*
+## 🔹 EvidenciaFitnesKlientov v4.0 – *in process*
 **Tech Stack:** Spring Boot • REST API • MySQL • JPA/Hibernate • React (Frontend)
 
 The next major version of the Fitness Client Management System — rebuilt as a full-stack application.  
@@ -68,7 +70,7 @@ The next major version of the Fitness Client Management System — rebuilt as a 
 - Professional multi-layer architecture (controller • service • repository • entity • DTO)  
 - Designed to replace previous desktop versions (v1, v2, v3)
 
-📌 GitHub: *Coming soon*
+📌 GitHub:  [View Repository]https://github.com/PatrikScerba/EvidenciaFitnesKlientov_Web
 
 ---
 
